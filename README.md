@@ -3,7 +3,7 @@ ChatGPT Todo Plugin (No Auth)
 </h2>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/python-v3.10.0-blue.svg"/>
+  <img src="https://img.shields.io/badge/python-v3.10.13-blue.svg"/>
 </div>
 
 OpenAI의 ChatGPT는 확장 가능한 구조를 가지고 있습니다. 특히 OpenAI는 Plugin이라는 기능을 제공하는데 이는 사용자가 매우 빠르고 간단하게 나만의 기능을 구축할 수 있게 해줍니다. OpenAI에서 소개하는 기본 예제 중 Todo 리스트를 이용하여 나만의 Plugin을 만들어보도록 하겠습니다. 기본 예제는 리스트에 데이터를 저장하는 방식을 사용하지만, 이 글에서는 데이터를 Sqlite DB에 저장하는 방식으로 조금 더 발전시켜 보겠습니다.
